@@ -1,7 +1,7 @@
 def turn_count(board)
   count = 0
   counter = 0
-  board[count].each do |cell|
+  board[counter].each do |cell|
     if cell == "X"
       count +=1
       counter +=1
